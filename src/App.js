@@ -10,7 +10,6 @@ function App() {
       <Provider store={myStore}>
         <BrowserRouter>
           <MainComponent />
-
         </BrowserRouter>
       </Provider>
     </div>
