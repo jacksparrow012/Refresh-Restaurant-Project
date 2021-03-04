@@ -5,9 +5,12 @@ import Footer from "./Footer/Footer"
 const MainComponent = () => {
     return (
         <div>
+
             <Header />
             <Body />
             <Footer />
+
+
         </div>
     );
 };
