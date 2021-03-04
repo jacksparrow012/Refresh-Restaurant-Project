@@ -22,6 +22,8 @@ class Contact extends Component {
         console.log(this.state);
     }
     render() {
+        document.title = "Contact"
+
         return (
             <div className="container" >
                 <div className="row row-content" style={{ textAlign: "center", marginBottom: "20px" }}>
