@@ -17,7 +17,7 @@ const DishDetail = (props) => {
                     <CardTitle className="commonStyle">Price:<h3>{props.dish.price}</h3></CardTitle>
                 </CardBody>
                 <h2 className="text-center">User Reviews</h2>
-                <LoadComments comments={props.dish.comments} />
+                <LoadComments comments={props.comments} />
             </Card>
         </div>
     );
